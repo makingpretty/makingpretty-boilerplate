@@ -1,0 +1,67 @@
+/* --------------------------------------- *\
+  #Project Settings
+\* --------------------------------------- */
+
+// Consistent settings
+$br: 5px; // Border-radius
+$btn-br: 5px; // Button border-radius
+$padding: 40px; // Padding and margins
+$form-height: 44px; // Consistent height for buttons, inputs etc.
+
+
+// Font Stacks
+$title-font: Serif;
+$body-font: Sans-serif;
+$mono-font: monospace;
+
+
+// Project color variables
+$primary-colour: #1271db;
+$secondary-colour: #233e5b;
+$tertiary-colour: #aaa;
+
+
+// Gray Scale
+$white:  #fff;
+$silver: #ddd;
+$grey:   #aaa;
+$black:  #111;
+
+
+// Font Colours
+$title-colour: $black;
+$body-colour: #777;
+$subtle-colour: $grey;
+$link-colour: $primary-colour;
+
+
+// Better default colors
+// Cool
+$aqua:  #7fdbff;
+$blue:  #0074d9;
+$navy:  #001f3f;
+$teal:  #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime:  #01ff70;
+// Warm
+$yellow:  #ffdc00;
+$orange:  #ff851b;
+$red:     #ff4136;
+$fuchsia: #f012be;
+$purple:  #b10dc9;
+$maroon:  #85144b;
+
+
+// Utility colours
+$danger-colour: $red; // Bad color for errors, validation etc.
+$success-colour: $green; // Good color for success etc.
+$info-colour: $blue; // Good color for success etc.
+$warning-colour: $orange; // Good color for success etc.
+
+
+// Responsive breakpoints
+$small-break: 480px;
+$medium-break: 768px;
+$big-break: 1024px;
+$huge-break: 1200px;
