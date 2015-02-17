@@ -1,0 +1,119 @@
+
+
+
+/* --------------------------------------- *\
+  #Buttons
+\* --------------------------------------- */
+
+// Default button
+.btn {
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $primary-colour;
+  color: $primary-colour;
+  display: inline-block;
+  height: $form-height;
+  line-height: $form-height;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    background: $primary-colour;
+    border-color: $primary-colour;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($primary-colour, 10);
+    border-color: darken($primary-colour, 10);
+  }
+
+  @include min-width($small-break) {
+    width: auto;
+    margin: 0;
+    display: inline-block;
+  }
+}
+
+// Primary action button
+.btn-primary {
+  background-color: $secondary-colour;
+  border-color: $secondary-colour;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: $primary-colour;
+    border-color: $primary-colour;
+    color: #fff;
+  }
+
+  &:active {
+    background: $primary-colour;
+    border-color: $primary-colour;
+    color: #fff;
+  }
+}
+
+// Ghost button
+.btn-ghost {
+  line-height: ($form-height - 2);
+  border-color: $grey;
+  color: $black;
+  padding: 1px 25px;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    border-color: $primary-colour;
+    border-width: 2px;
+    color: $primary-colour;
+    padding: 0 24px;
+  }
+
+  &:active {
+    background: darken($primary-colour, 10);
+  }
+}
+
+// Link button - a button that looks like a link
+.btn-link {
+  box-shadow: none;
+  background: transparent;
+  border: 0;
+  color: $primary-colour;
+  text-shadow: none;
+  text-transform: none;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $secondary-colour;
+    text-decoration: underline;
+  }
+}
+
+// Larger button
+.btn-lg {
+  font-size: 1.4em;
+  height: $form-height*1.5;
+  line-height: $form-height*1.5;
+  padding: 0 60px;
+}
+
+// Smaller button
+.btn-sm {
+  font-size: .85em;
+  height: $form-height*0.7;
+  line-height: $form-height*0.7;
+  padding: 0 10px;
+}
