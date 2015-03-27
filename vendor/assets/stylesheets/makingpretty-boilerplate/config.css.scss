@@ -18,24 +18,27 @@ $body-font: Sans-serif;
 $mono-font: monospace;
 
 
+// Gray Scale
+$white: #fff;
+$off-white: #f2f2f2;
+$silver: #ddd;
+$grey: #aaa;
+$black:  #111;
+
 // Project color variables
 $primary-colour: #1271db;
 $secondary-colour: #233e5b;
 $tertiary-colour: #aaa;
 
-
-// Gray Scale
-$white:  #fff;
-$silver: #ddd;
-$grey:   #aaa;
-$black:  #111;
+$body-bg: #fff;
 
 
 // Font Colours
 $title-colour: $black;
-$body-colour: #777;
+$text-colour: #777;
 $subtle-colour: $grey;
 $link-colour: $primary-colour;
+$link-hover: $secondary-colour;
 
 
 // Better default colors
@@ -62,9 +65,12 @@ $success-colour: $green; // Good color for success etc.
 $info-colour: $blue; // Good color for success etc.
 $warning-colour: $orange; // Good color for success etc.
 
+$eleven-red: #EB2227;
+$eleven-blue: #00ADEF;
 
-// Responsive breakpoints
+
+// Responsive breakpoints – 
 $small-break: 480px;
-$medium-break: 768px;
-$big-break: 1024px;
-$huge-break: 1200px;
+$medium-break: 768px; //bootstrap sm
+$big-break: 992px;    //bootstrap md
+$huge-break: 1200px;  //bootstrap lg

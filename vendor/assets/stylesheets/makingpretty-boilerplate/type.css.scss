@@ -126,10 +126,18 @@ code {
 }
 
 a {
-  color: $primary-colour;
+  color: $link-colour;
 
   &:hover,
   &:focus {
-    color: $secondary-colour;
+    color: $link-hover;
+  }
+
+  &.eleven__link {
+    color: $eleven-red;
+
+    &:hover {
+      color: $eleven-blue;
+    }
   }
 }

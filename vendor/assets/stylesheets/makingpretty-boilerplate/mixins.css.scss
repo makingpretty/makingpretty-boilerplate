@@ -22,12 +22,10 @@
   }
 }
 
-// Apply clearfix to this classes by default
-.clearfix,
-.group {
+// Apply clearfix
+.clearfix {
   @include clearfix;
 }
-
 
 
 
@@ -39,6 +37,16 @@
 }
 @mixin max-width($res) {
   @media screen and (max-width: $res) {
+    @content;
+  }
+}
+@mixin min-height($res) {
+  @media screen and (min-height: $res) {
+    @content;
+  }
+}
+@mixin max-height($res) {
+  @media screen and (max-height: $res) {
     @content;
   }
 }
